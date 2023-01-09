@@ -3,18 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@metamask/eth-sig-util": "^5.0.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@themesberg/tailwind-datepicker": "^1.1.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.4",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
+    "alpinejs": "^3.10.5",
+    "buffer": "^6.0.3",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "crypto-js": "^4.1.1",
+    "encrypt-rsa": "^2.1.2",
+    "ethereum-blockies-base64": "^1.0.2",
+    "ethers": "^5.7.2",
+    "flowbite-datepicker": "^1.2.2",
+    "ipfs-http-client": "^59.0.0",
+    "keypair": "^1.0.4",
+    "openpgp": "^5.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.4",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.3",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack": "^4.46.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,5 +55,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/openpgp": "^4.4.18",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4"
   }
 }
